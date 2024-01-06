@@ -18,28 +18,37 @@ This repository contains a Node.js backend that serves as an interface for inter
    git clone https://github.com/your-username/OpenAI-Node-Assistant.git
 
 2.Navigate to the project directory:
+
  ```bash
   cd OpenAI-Node-Assistant
-'''
+
 3.Install dependencies:
+
+ ```bash
   npm install
   
 4.Configure your OpenAI API key:
+
   Replace 'REPLACE_WITH_YOUR_OPENAI_API_KEY' in server.js with your actual OpenAI API key.
 
 5.Start the Node.js server:
 
+ ```bash
   node server.js
   
 The server will be running at http://localhost:3000.
 
 API Endpoints:
 POST /run-message:
+
+ ```bash
 Request Body:
 {
   "threadId": "optional-thread-id",
   "message": "user-input-message"
 }
+
+ ```bash
 Response:
 {
   "threadId": "thread-id",
