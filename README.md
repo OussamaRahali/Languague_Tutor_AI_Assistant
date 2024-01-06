@@ -26,7 +26,8 @@ This repository contains a Node.js backend that serves as an interface for inter
 3.Install dependencies:
 
  ```bash
-  npm install 
+  npm install
+```
   
 4.Configure your OpenAI API key:
 
@@ -36,6 +37,7 @@ This repository contains a Node.js backend that serves as an interface for inter
 
  ```bash
   node server.js
+```
   
 The server will be running at http://localhost:3000.
 
@@ -48,10 +50,11 @@ Request Body:
   "threadId": "optional-thread-id",
   "message": "user-input-message"
 }
-
+```
  ```bash
 Response:
 {
   "threadId": "thread-id",
   "response": "assistant-response-message"
 }
+```
