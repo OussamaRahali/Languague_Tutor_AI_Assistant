@@ -18,7 +18,7 @@ This repository contains a Node.js backend that serves as an interface for inter
    git clone https://github.com/your-username/OpenAI-Node-Assistant.git
 
 2.Navigate to the project directory:
-
+ ```bash
   cd OpenAI-Node-Assistant
 
 3.Install dependencies:
