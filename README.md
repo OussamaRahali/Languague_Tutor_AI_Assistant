@@ -20,7 +20,8 @@ This repository contains a Node.js backend that serves as an interface for inter
 2.Navigate to the project directory:
 
  ```bash
-  cd OpenAI-Node-Assistant ```
+  cd OpenAI-Node-Assistant
+ ```
 
 3.Install dependencies:
 
